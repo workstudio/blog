@@ -54,7 +54,7 @@ declare module 'vue-router' {
 }
 
 export enum CategorySlug {
-  Code = 'code',
+  Figure = 'figure',
   Insight = 'insight'
 }
 

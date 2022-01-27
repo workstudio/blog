@@ -25,9 +25,9 @@
           <i class="iconfont icon-home-fill"></i>
           <i18n :lkey="LANGUAGE_KEYS.PAGE_HOME" />
         </router-link>
-        <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Code)">
+        <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Figure)">
           <i class="iconfont icon-code"></i>
-          <i18n :lkey="LANGUAGE_KEYS.CATEGORY_CODE" />
+          <i18n :lkey="LANGUAGE_KEYS.CATEGORY_FIGURE" />
         </router-link>
         <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Insight)">
           <i class="iconfont icon-thinking"></i>

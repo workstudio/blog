@@ -32,16 +32,16 @@ export const langMap: I18nMap<LANGUAGE_KEYS, Language> = {
     [Language.En]: 'Because the mountain is there'
   },
   [LANGUAGE_KEYS.PAGE_HOME]: {
-    [Language.Zh]: '明殿',
+    [Language.Zh]: '首页',
     [Language.En]: 'Home'
   },
   [LANGUAGE_KEYS.CATEGORY_INSIGHT]: {
     [Language.Zh]: '无色庵',
     [Language.En]: 'Insight'
   },
-  [LANGUAGE_KEYS.CATEGORY_CODE]: {
-    [Language.Zh]: '宁静寺',
-    [Language.En]: 'Code'
+  [LANGUAGE_KEYS.CATEGORY_FIGURE]: {
+    [Language.Zh]: '大人物',
+    [Language.En]: 'Figure'
   },
   [LANGUAGE_KEYS.PAGE_GITHUB]: {
     [Language.Zh]: '丹青阁',
@@ -52,11 +52,11 @@ export const langMap: I18nMap<LANGUAGE_KEYS, Language> = {
     [Language.En]: 'Archive'
   },
   [LANGUAGE_KEYS.PAGE_ABOUT]: {
-    [Language.Zh]: '狂浪生',
+    [Language.Zh]: '关于我们',
     [Language.En]: 'About'
   },
   [LANGUAGE_KEYS.PAGE_GUESTBOOK]: {
-    [Language.Zh]: '四方馆',
+    [Language.Zh]: '留言',
     [Language.En]: 'Guestbook'
   },
   [LANGUAGE_KEYS.PAGE_APP]: {
@@ -68,7 +68,7 @@ export const langMap: I18nMap<LANGUAGE_KEYS, Language> = {
     [Language.En]: 'Lens'
   },
   [LANGUAGE_KEYS.PAGE_MUSIC]: {
-    [Language.Zh]: '梨园',
+    [Language.Zh]: '音乐',
     [Language.En]: 'Music'
   },
   [LANGUAGE_KEYS.PAGE_JOB]: {
@@ -76,7 +76,7 @@ export const langMap: I18nMap<LANGUAGE_KEYS, Language> = {
     [Language.En]: 'Job'
   },
   [LANGUAGE_KEYS.PAGE_MERCH]: {
-    [Language.Zh]: '周边',
+    [Language.Zh]: '精品库',
     [Language.En]: 'Merch'
   },
   [LANGUAGE_KEYS.PAGE_FREELANCER]: {
