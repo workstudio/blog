@@ -11,11 +11,11 @@ export const GA_MEASUREMENT_ID = 'UA-84887611-3'
 export const ADSENSE_CLIENT_ID = 'ca-pub-4710915636313788'
 
 export const META = Object.freeze({
-  title: 'Surmon.me',
-  sub_title: '来苏之望',
-  domain: 'surmon.me',
-  url: 'https://surmon.me',
-  author: 'Surmon'
+  title: '日拱一卒',
+  sub_title: '跬步千里，小流江海',
+  domain: 'canliang.wang',
+  url: 'https://canliang.wang',
+  author: 'muxiulin'
 })
 
 export const THIRD_IDS = Object.freeze({
