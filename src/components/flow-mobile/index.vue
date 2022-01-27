@@ -158,7 +158,7 @@
         return {
           title: `${META.title} - ${META.sub_title}`,
           description: metaStore.appOptions.data?.description,
-          keywords: metaStore.appOptions.data?.keywords.join(',')
+          keywords: ''//metaStore.appOptions.data?.keywords.join(',')
         }
       })
 

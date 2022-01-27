@@ -3,20 +3,15 @@
     <div class="container">
       <a class="sitemap-btn" target="_blank" :href="VALUABLE_LINKS.SITE_MAP">sitemap.xml</a>
       <divider type="vertical" />
-      <i18n zh="由 " en="Powered By " />
-      <ulink class="item" :href="VALUABLE_LINKS.GITHUB_BLOG_STAR_LIST">NodePress</ulink>
-      <i18n zh="、" en=", " />
-      <ulink class="item" :href="VALUABLE_LINKS.GITHUB_SURMON_ME">Vue</ulink>
-      <i18n zh=" 和 日月星辰 强力驱动" en=" and solitarily" />
+      <i18n>
+        <template #zh>
+          <router-link :to="aboutPageUrl" key="zh">木木书屋</router-link>
+        </template>
+      </i18n>
       <divider type="vertical" />
       <i18n>
         <template #zh>
-          <router-link :to="aboutPageUrl" key="zh">吾之臂躯</router-link>
-          <span> 行针步线</span>
-        </template>
-        <template #en>
-          <span>Designed By </span>
-          <router-link :to="aboutPageUrl" key="en">Me</router-link>
+          <span><a href="https://beian.miit.gov.cn" target="_blank">京ICP备13015487号-5</a></span>
         </template>
       </i18n>
     </div>

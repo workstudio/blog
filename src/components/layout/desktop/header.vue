@@ -17,14 +17,14 @@
         <button class="button menu" v-if="isEnabledNav">
           <i class="iconfont icon-top-menu"></i>
         </button>
-        <button
+        <!--<button
           class="button language"
           title="Switch language"
           :class="language"
           @click="tooggleLanguage"
         >
           {{ language || '-' }}
-        </button>
+        </button>-->
         <button class="button theme" :class="theme" @click="toggleTheme">
           <i class="iconfont" :class="themeIcon"></i>
         </button>
@@ -86,7 +86,7 @@
     setup() {
       const { i18n, gtag, theme, globalState } = useEnhancer()
       // 非常规布局则启用菜单
-      const isEnabledNav = computed(() => !globalState.layoutColumn.value.isNormal)
+      const isEnabledNav = true;//computed(() => !globalState.layoutColumn.value.isNormal)
 
       const themeValue = theme.theme
       const themeIcon = computed(() => {
