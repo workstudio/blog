@@ -35,9 +35,9 @@ export const langMap: I18nMap<LANGUAGE_KEYS, Language> = {
     [Language.Zh]: '首页',
     [Language.En]: 'Home'
   },
-  [LANGUAGE_KEYS.CATEGORY_INSIGHT]: {
-    [Language.Zh]: '无色庵',
-    [Language.En]: 'Insight'
+  [LANGUAGE_KEYS.CATEGORY_BOOK]: {
+    [Language.Zh]: '图书系列',
+    [Language.En]: 'Book'
   },
   [LANGUAGE_KEYS.CATEGORY_FIGURE]: {
     [Language.Zh]: '大人物',

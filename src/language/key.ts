@@ -6,7 +6,7 @@
 
 export enum LANGUAGE_KEYS {
   PAGE_HOME = 'home',
-  CATEGORY_INSIGHT = 'insight',
+  CATEGORY_BOOK = 'book',
   CATEGORY_FIGURE = 'figure',
   PAGE_GITHUB = 'github',
   PAGE_LENS = 'lens',

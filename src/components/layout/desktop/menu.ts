@@ -28,10 +28,16 @@ export const menus: Array<MenuItem> = [
     i18nKey: LANGUAGE_KEYS.CATEGORY_FIGURE
   },
   {
-    id: CategorySlug.Insight,
-    route: getCategoryFlowRoute(CategorySlug.Insight),
+    id: CategorySlug.Book,
+    route: getCategoryFlowRoute(CategorySlug.Book),
+    icon: 'icon-barrage',
+    i18nKey: LANGUAGE_KEYS.CATEGORY_BOOK
+  },
+  {
+    id: CategorySlug.Book,
+    route: getCategoryFlowRoute(CategorySlug.Book),
     icon: 'icon-thinking',
-    i18nKey: LANGUAGE_KEYS.CATEGORY_INSIGHT
+    i18nKey: LANGUAGE_KEYS.CATEGORY_BOOK
   },
   /*{
     id: 'github',

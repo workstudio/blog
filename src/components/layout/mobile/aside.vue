@@ -29,9 +29,9 @@
           <i class="iconfont icon-code"></i>
           <i18n :lkey="LANGUAGE_KEYS.CATEGORY_FIGURE" />
         </router-link>
-        <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Insight)">
+        <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Book)">
           <i class="iconfont icon-thinking"></i>
-          <i18n :lkey="LANGUAGE_KEYS.CATEGORY_INSIGHT" />
+          <i18n :lkey="LANGUAGE_KEYS.CATEGORY_BOOK" />
         </router-link>
         <ulink class="item" :href="VALUABLE_LINKS.GITHUB">
           <i class="iconfont icon-github"></i>
